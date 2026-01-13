@@ -89,16 +89,9 @@ nav ul.navbar-nav li.nav-item a:hover{
 #landing h1{
     font-size: 80px;
 }
-#landing h2 {
-    font-size: 50px;
-}
 @media screen and (max-width: 767px) {
     #landing h1 {
         font-size: 60px;
-    }
-
-    #landing h2 {
-        font-size: 30px;
     }
 }
 /* End Landing */
