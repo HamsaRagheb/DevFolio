@@ -14,6 +14,10 @@ ul{
 a{
     text-decoration: none;
 }
+html,
+body {
+    overflow-x: hidden;
+}
 /* Start Components */
 .main-title {
     margin: 60px 0px;
@@ -41,7 +45,7 @@ a{
     padding: 1px;
     height: 45px;
     bottom: 15px;
-    right: 10px;
+    right: 14px;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -106,30 +110,29 @@ nav ul.navbar-nav li.nav-item a:hover{
     color: var(--main-color)  !important;
 }
 #about .info img{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 190px;
 }
 #about .info .skills .skill .progress{
     height: 10px;
 }
 #about .info .skills .skill .progress .progress-bar::before {
     content: attr(data-percentage);
-    content: attr(data-percentage);
     position: absolute;
-    top: -43px;
-    right: -20px;
+    top: -37px;
+    right: -16px;
     color: white;
     background-color: var(--main-color);
-    font-size: 17px;
-    padding: 2px 3px;
+    font-size: 16px;
+    padding: 1px 2px;
     border-radius: 5px;
 }
 #about .info .skills .skill .progress .progress-bar::after {
     content: "";
     position: absolute;
-    top: -14px;
-    right: -8px;
-    border-width: 8px;
+    top: -11px;
+    right: -4px;
+    border-width: 7px;
     border-style: solid;
     border-color: var(--main-color) transparent transparent transparent;
 }
@@ -203,11 +206,6 @@ nav ul.navbar-nav li.nav-item a:hover{
     width: 80px;
     height: 80px;
     border: 8px solid #cde1f8;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 /* End Work */
 /* Start Portfolio */
@@ -238,13 +236,9 @@ nav ul.navbar-nav li.nav-item a:hover{
 }
 #portfolio .card .info a{
     background-color: var(--main-color);
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
 }
 /* End Portfolio */
 /* Start Testimonails */
@@ -276,11 +270,6 @@ nav ul.navbar-nav li.nav-item a:hover{
 #blog .card .card-footer .info img{
     width: 45px;
     height: 45px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 /* End Blog */
 /* Start Contact */
